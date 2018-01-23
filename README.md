@@ -22,7 +22,7 @@ pod 'hellopod_mxc'
 
 ## Author
 
-xingchi.mxc, xingchi.mxc@alibaba-inc.com
+1311731339@qq.com
 
 ## License
 
