@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'hellopod_mxc'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of hellopod_mxc.'
+  s.version          = '0.0.3'
+  s.summary          = 'this is a hello world test for cocoapod, please do not use it in your project'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  this is a hello world test for cocoapod, please do not use it in your project；just ignore it~
                        DESC
 
-  s.homepage         = 'https://github.com/xingchi.mxc/hellopod_mxc'
+  s.homepage         = 'https://github.com/boathub/hello-pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xingchi.mxc' => 'xingchi.mxc@alibaba-inc.com' }
-  s.source           = { :git => 'https://github.com/xingchi.mxc/hellopod_mxc.git', :tag => s.version.to_s }
+  s.author           = { 'maxingchi' => 'maxingchi@outlook.com' }
+  s.source           = { :git => 'https://github.com/boathub/hello-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'hellopod_mxc/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'hellopod_mxc' => ['hellopod_mxc/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
