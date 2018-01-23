@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xingchi.mxc/hellopod'
+  s.homepage         = 'https://github.com/boathub/hello-pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xingchi.mxc' => 'xingchi.mxc@alibaba-inc.com' }
-  s.source           = { :git => 'https://github.com/xingchi.mxc/hellopod.git', :tag => s.version.to_s }
+  s.author           = { 'maxingchi' => 'maxingchi@outlook.com' }
+  s.source           = { :git => 'https://github.com/boathub/hello-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'hellopod/Classes/**/*'
   
