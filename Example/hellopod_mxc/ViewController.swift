@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import hellopod_mxc
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let hello = HelloPods();
+        print(hello.hello());
     }
 
     override func didReceiveMemoryWarning() {
