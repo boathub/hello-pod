@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'hellopod'
-  s.version          = '0.1.0'
+  s.version          = '0.0.2'
   s.summary          = 'this is a hello world test for cocoapod, please do not use it in your project'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  this is a hello world test for cocoapod, please do not use it in your project；just ignore it~
                        DESC
 
   s.homepage         = 'https://github.com/boathub/hello-pod'
